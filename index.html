@@ -6,13 +6,18 @@
     <title>Amazon</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
 </head>
 <body>
     <header>
         <div class="navbar">
             <div class="nav-logo border ">
-                <div class="logo"></div>
+                <a href="https://www.amazon.in/ref=nav_logo">
+                    <div class="logo"></div>
+                </a>
             </div>
             <div class="nav-address border" >
                 <p class="address-one">Deliver to</p>
@@ -34,7 +39,7 @@
 
             <div class="nav-country border">
                 <div class="country">
-                    <img src="indiaflag.png" >
+                    <img src="images/indiaflag.png" >
                     <select class="country-select">
                         <option >EN</option>
                     </select>
@@ -74,19 +79,176 @@
                 All
             </div>
             <div class="panel-ops">
-                <p>MX Player </p>
-                <P>Sell</P>
-                <p>Amazon Pay</p>
-                <P>Buy Again</P>
-                <P>AmazonBasics</P>
-                <P>Gift Ideas</P>
-                <P>Today's Deals</P>
-                <P>Health, Household & Personal Care</P>
+                <p class="border">MX Player </p>
+                <P class="border">Sell</P>
+                <p class="border">Amazon Pay</p>
+                <p class="border">Buy Again</p>
+                <p class="border">AmazonBasics</p>
+                <p class="border">Gift Ideas</p>
+                <p class="border">Today's Deals</>
+                <p class="border">Health, Household & Personal Care</p>
             </div>
         </div>
     </header>
-    <div class="hero-section">
+    <div class="hero-section" id="hero"></div>
+    <div class="content-section">
+        
+        <div class="mainbox1">
+            
+            <div class="subbox">
+                <div class="title">
+                    <p>Keep Shopping For</p>
+                </div>
+
+                <div class="box">
+                    <div class="subbox1"><img src="images/subbox1.jpg" alt=""></div>
+                    <div class="subbox1"><img src="images/subbox2.jpg" alt=""></div>
+                    <div class="subbox1"><img src="images/subbox3.jpg" alt=""></div>
+                    <div class="subbox1"><img src="images/subbox4.jpg" alt=""></div>
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="mainbox2">
+            
+            <div class="subbox">
+                <div class="title">
+                    <p>Electronics</p>
+                </div>
+
+                <div class="box">
+                    <div class="subbox1"><img src="images/subbox5.jpg" alt=""></div>
+                    <div class="subbox1"><img src="images/subbox6.jpg" alt=""></div>
+                    <div class="subbox1"><img src="images/subbox7.jpg" alt=""></div>
+                    <div class="subbox1"><img src="images/subbox8.jpg" alt=""></div>
+                </div>
+                
+            </div>
+            
+        </div>
+
+        <div class="mainbox3">
+            
+            <div class="subbox">
+                <div class="title">
+                    <p>Home Decor</p>
+                </div>
+
+                <div class="box">
+                    <div class="subbox1"><img src="images/subbox9.jpg" alt=""></div>
+                    <div class="subbox1"><img src="images/subbox10.jpg" alt=""></div>
+                    <div class="subbox1"><img src="images/subbox11.jpg" alt=""></div>
+                    <div class="subbox1"><img src="images/subbox12.jpg" alt=""></div>
+                </div>
+                
+            </div>
+            
+        </div>
+
+        <div class="mainbox4">
+            
+            <div class="subbox">
+                <div class="title">
+                    <p>Mobile and Accessories</p>
+                </div>
+
+                <div class="box">
+                    <div class="subbox1"><img src="images/subbox13.jpg" alt=""></div>
+                    <div class="subbox1"><img src="images/subbox14.jpg" alt=""></div>
+                    <div class="subbox1"><img src="images/subbox15.jpg" alt=""></div>
+                    <div class="subbox1"><img src="images/subbox16.jpg" alt=""></div>
+                </div>
+                
+            </div>
+            
+        </div>
+
+        <div class="mainbox5">
+            
+            <div class="subbox">
+                <div class="title">
+                    <p>Amazon Fashion</p>
+                </div>
+
+                <div class="box">
+                    <div class="subbox1"><img src="images/subbox17.jpg" alt=""></div>
+                    <div class="subbox1"><img src="images/subbox18.jpg" alt=""></div>
+                    <div class="subbox1"><img src="images/subbox19.jpg" alt=""></div>
+                    <div class="subbox1"><img src="images/subbox20.jpg" alt=""></div>
+                </div>
+                
+            </div>
+            
+        </div>
+
+        <div class="mainbox6">
+            
+            <div class="subbox">
+                <div class="title">
+                    <p>Sports</p>
+                </div>
+
+                <div class="box">
+                    <div class="subbox1"><img src="images/subbox21.jpg" alt=""></div>
+                    <div class="subbox1"><img src="images/subbox22.jpg" alt=""></div>
+                    <div class="subbox1"><img src="images/subbox23.jpg" alt=""></div>
+                    <div class="subbox1"><img src="images/subbox24.jpg" alt=""></div>
+                </div>
+                
+            </div>
+            
+        </div>
     </div>
-    
+
+    <footer class="footer">
+        <div onclick="toTop()" class="backtotop">
+            <span> back to top </span>
+        </div>
+        <div class="footer-panel"> 
+
+            <div class="bottomNavigation">
+                <div class="getToKnow"> Get to Know Us
+                    <ul class="nav-first listyle">
+                        <li>About Amazon</li>
+                        <li>Carees</li>
+                        <li>Press Releases</li>
+                        <li>Amazon</li>
+                    </ul>
+                </div>
+                <div class="connectUs"> Connect with Us
+                    <ul class="nav-second">
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                    </ul>
+                </div>
+                <div class="makeMoneywithus"> Make Money with Us
+                    <ul class="nav-second">
+                        <li>Sale on Amazon</li>
+                        <li>Sell under Amazon Accelerator</li>
+                        <li>Protect and Build Your Brand</li>
+                        <li>Amazon Global Selling</li>
+                        <li>Supply to Amazon</li>
+                        <li>Become an Affiliate</li>
+                        <li>Fulfilment by Amazon</li>
+                        <li>Advertise Your Products</li>
+                        <li>Amazon Pay on Merchants</li>
+                    </ul>
+                </div>
+                <div class="help"> Let us Help you
+                    <ul class="nav-second">
+                        <li>Your Account</li>
+                        <li>Returns Centre</li>
+                        <li>Recalls and Product Safety Alerts</li>
+                        <li>100% Purchase Protection</li>
+                        <li>Amazon App Download</li>
+                        <li>Help</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
